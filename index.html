@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Feliz Aniversário, Pai! 💚</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <!-- ============================= -->
+    <!-- HERO / ABERTURA -->
+    <!-- ============================= -->
+
+    <header class="hero">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <span class="small-title">
+                Um dia especial para uma pessoa especial.
+            </span>
+	<span class="small-title 2">
+	<s>(isso não é piada pelo autismo)</s>
+</span>
+            <h1>
+                Feliz aniversário,<br>
+                <span>Pai!</span>
+            </h1>
+
+            <p class="hero-subtitle">
+                Hoje é dia de celebrar você, sua história
+                e tudo aquilo que você representa para nossa família.
+            </p>
+
+            <a href="#familia" class="hero-button">
+                Ver homenagem ↓
+            </a>
+
+        </div>
+
+        <div class="scroll-indicator">
+            ↓
+        </div>
+
+    </header>
+
+
+    <!-- ============================= -->
+    <!-- HOMENAGEM -->
+    <!-- ============================= -->
+
+    <section class="section homenagem">
+
+        <div class="container">
+
+            <span class="section-label">
+                💚 Para você
+            </span>
+
+            <h2>
+                Mais um ano da sua história
+            </h2>
+
+            <div class="message">
+
+                <p style="font-size":40px>
+                    Pai, hoje é um dia para comemorar a sua vida,
+                    mas também para agradecer por tudo que você
+                    representa para nossa família.
+                </p>
+
+                <p>
+                    Você é uma daquelas pessoas que fazem parte
+                    das nossas melhores lembranças, dos momentos
+                    importantes e das histórias que vamos carregar
+                    para sempre.
+                </p>
+
+                <p>
+                    Que esse novo ano venha cheio de saúde,
+                    felicidade, bons momentos e muitos motivos
+                    para sorrir.
+                </p>
+
+                <p class="highlight">
+                    Feliz aniversário, pai! ❤️
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- FAMÍLIA -->
+    <!-- ============================= -->
+
+    <section id="familia" class="section familia">
+
+        <div class="container">
+
+            <span class="section-label">
+                ❤️ Quem Faz Parte da Sua História
+            </span>
+
+            <h2>
+                Momentos que ficam para sempre
+            </h2>
+
+            <p class="section-description">
+                Porque uma vida também é feita das pessoas
+                que caminham ao nosso lado.
+            </p>
+
+
+           <section class="memorias">
+    <h2>Nossas Memórias</h2>
+
+    <div class="carrossel">
+        <button class="carrossel-btn anterior" onclick="fotoAnterior()">❮</button>
+
+        <div class="foto-carrossel">
+    <img id="imagemCarrossel" src="fotos pai/og-foto.jpeg" alt="Memória da família">
+</div>
+
+        <button class="carrossel-btn proximo" onclick="proximaFoto()">❯</button>
+    </div>
+
+    <div class="indicadores" id="indicadores">
+        <span class="ativo"></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</section>
+
+
+    <!-- ============================= -->
+    <!-- PALMEIRAS -->
+    <!-- ============================= -->
+
+    <section class="section palmeiras">
+
+        <div class="palmeiras-pattern"></div>
+
+        <div class="container palmeiras-content">
+
+            <div class="p-symbol">
+                P
+            </div>
+
+            <span class="section-label light">
+                🟢 Uma paixão
+            </span>
+
+            <h2>
+                E claro...
+            </h2>
+
+            <h3>
+                AVANTI, PALESTRA! 💚
+            </h3>
+
+            <p>
+                Porque aniversário bom também tem que ter
+                espaço para aquela paixão que atravessa
+                gerações.
+            </p>
+
+            <div class="p-line"></div>
+
+            <p class="small-message">
+                Explicar a emoção de ser palmeirense, a um palmeirense, é totalmente desnecessário. E a quem não é palmeirense... É simplesmente impossível!
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- MAIS FOTOS -->
+    <!-- ============================= -->
+
+    <section class="section memories">
+
+        <div class="container">
+
+            <span class="section-label">
+                📸 Memórias
+            </span>
+
+            <h2>
+                Alguns dos muitos momentos
+            </h2>
+
+           <section class="palmeiras">
+
+    <h2>Palmeiras</h2>
+
+    <div class="carrossel">
+
+        <button class="carrossel-btn anterior"
+                onclick="fotoPalmeirasAnterior()">
+            ❮
+        </button>
+
+        <div class="foto-carrossel">
+
+            <img id="imagemPalmeiras"
+                 src="fotos pai/palmeiras.jpeg"
+                 alt="Memória do Palmeiras">
+
+        </div>
+
+        <button class="carrossel-btn proximo"
+                onclick="fotoPalmeirasProxima()">
+            ❯
+        </button>
+
+    </div>
+
+    <div class="indicadores" id="indicadoresPalmeiras"></div>
+
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- MENSAGEM FINAL -->
+    <!-- ============================= -->
+
+    <section class="final-message">
+
+        <div class="container">
+
+            <div class="heart">
+                💚
+            </div>
+
+            <h2>
+                Feliz aniversário, Pai!
+            </h2>
+
+            <p>
+                Que venham muitos e muitos anos,
+                sempre cercado pelas pessoas que te amam.
+            </p>
+
+            <strong>
+                Te desejamos tudo de melhor! ❤️ <s> além de nós é claro</s>
+            </strong>
+
+        </div>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- FOOTER -->
+    <!-- ============================= -->
+
+    <footer>
+
+        <p>
+            Feito com carinho para o melhor pai do mundo.
+        </p>
+
+        <span>
+            💚 ⚽ 💚
+        </span>
+
+    </footer>
+<section class="pegadinha">
+
+    <h2>Uma pergunta importante...</h2>
+
+    <div class="pergunta-palmeiras">
+
+        <p>Você é palmeirense?</p>
+
+        <div class="botoes-palmeiras">
+
+            <button id="botaoSim">
+                Sim 💚
+            </button>
+
+            <button id="botaoNao">
+                Não
+            </button>
+
+        </div>
+
+        <p id="respostaPalmeiras"></p>
+
+    </div>
+
+    <div id="confetes"></div>
+
+</section>
+	<script src="script.js"></script>
+</body>
+</html>
+```
