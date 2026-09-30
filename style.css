@@ -1036,53 +1036,91 @@ footer span {
 
 @media (max-width: 600px) {
 
-    /* Textos */
+    /* =========================
+       TEXTOS
+       ========================= */
+
+    .message {
+        padding: 0 10px;
+    }
+
     .message p {
-        font-size: 18px;
-        line-height: 1.7;
+        font-size: 17px;
+        line-height: 1.65;
     }
 
-    /* Títulos */
     h2 {
-        font-size: 26px;
+        font-size: 24px;
     }
 
-    /* Carrossel */
+
+    /* =========================
+       CARROSSEL
+       ========================= */
+
     .carrossel {
-        gap: 8px;
+        width: 100%;
+        gap: 5px;
+        margin-top: 20px;
     }
 
     .foto-carrossel {
-        width: 80%;
-        height: 300px;
+        width: calc(100vw - 90px);
+        height: 380px;
+        max-width: none;
+    }
+
+    .foto-carrossel img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
     }
 
     .carrossel-btn {
-        width: 38px;
-        height: 38px;
-        font-size: 18px;
+        flex-shrink: 0;
+
+        width: 34px;
+        height: 34px;
+
+        font-size: 17px;
     }
 
-    /* Indicadores */
+
+    /* =========================
+       BOLINHAS
+       ========================= */
+
+    .indicadores {
+        margin-top: 10px;
+    }
+
     .indicadores span {
-        width: 9px;
-        height: 9px;
+        width: 8px;
+        height: 8px;
+        margin: 4px;
     }
 
-    /* Botões da pegadinha */
-    .botoes-palmeiras button {
-        font-size: 16px;
-        padding: 10px 20px;
-    }
 
-    /* Caixa da pegadinha */
+    /* =========================
+       PEGADINHA
+       ========================= */
+
     .pergunta-palmeiras {
         margin: 20px 10px;
-        padding: 25px;
+        padding: 25px 15px;
     }
 
     .pergunta-palmeiras p:first-child {
         font-size: 22px;
+    }
+
+    .botoes-palmeiras {
+        gap: 12px;
+    }
+
+    .botoes-palmeiras button {
+        font-size: 16px;
+        padding: 10px 20px;
     }
 
 }
