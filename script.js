@@ -3,7 +3,9 @@ const fotos = [
     "fotos pai/exame-fezes.jpeg",
     "fotos pai/foto-natal.jpeg",
     "fotos pai/menores.jpeg",
-    "fotos pai/esbanjando-paternidade.jpeg"
+    "fotos pai/esbanjando-paternidade.jpeg",
+     "fotos pai/tia.jpeg",
+     "fotos pai/jean.jpeg"
 ];
 
 let fotoAtual = 0;
@@ -57,7 +59,8 @@ mostrarFoto();
 
 const fotosPalmeiras = [
     "fotos pai/palmeiras.jpeg",
-    "fotos pai/flamengo.jpeg"
+    "fotos pai/flamengo.jpeg",
+     "fotos pai/campeao.jpeg",
 ];
 
 let fotoPalmeirasAtual = 0;
