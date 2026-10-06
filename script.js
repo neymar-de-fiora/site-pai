@@ -61,6 +61,7 @@ const fotosPalmeiras = [
     "fotos pai/palmeiras.jpeg",
     "fotos pai/flamengo.jpeg",
      "fotos pai/campeao.jpeg",
+    "fotos pai/12x.jpeg"
 ];
 
 let fotoPalmeirasAtual = 0;
