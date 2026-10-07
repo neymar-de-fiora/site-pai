@@ -5,7 +5,8 @@ const fotos = [
     "fotos pai/menores.jpeg",
     "fotos pai/esbanjando-paternidade.jpeg",
      "fotos pai/tia.jpeg",
-     "fotos pai/jean.jpeg"
+     "fotos pai/jean.jpeg",
+    "fotos pai/jean1.jpeg"
 ];
 
 let fotoAtual = 0;
